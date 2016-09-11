@@ -1,5 +1,19 @@
+h1 {
+	text-align: center;
+	color: orange;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
 h2 {
 	font-size:medium;
+	text-align: center;
+	padding-top: 4%
+}
+
+body {
+	background-image: url(http://tinyurl.com/h9xy3nm);
+	background-repeat: repeat-x;
 }
 
 #hot-takes {
@@ -7,7 +21,7 @@ h2 {
 	text-align: center;
 	width: 40%;
 	padding-left:3%; 
-
+	padding-top: 3%
 }
 
 #Game-Review {
@@ -15,12 +29,14 @@ h2 {
 	text-align: center;
 	width: 40%;
 	padding-left: 3%
+	padding-top: 3%
 }
 
 .bears {
 	display: inline-block;
 	width: 512px;
 	height: 512px;
+	margin: 0 auto;
 }
 
 
@@ -35,6 +51,7 @@ h2 {
 	text-decoration: none;
 	text-align: center;
 	font-weight: bold;
+	font-family: helvetica;
 	text-transform: uppercase;
 }
 
@@ -61,10 +78,14 @@ li {
 	}
 }
 
-@media screen and (max-width: 500px) {
-	div{
-		width: auto;
-		float:none;
-		margin-right: 0;
-	}
-}
+@media screen and (max-width: 600px){
+  p{
+    font-size: 0.6em;
+  }
+  h1{
+    font-size: 0.6em;
+  }
+  li {
+    font-size: 0.6em;
+  }
+  }
