@@ -1,0 +1,70 @@
+h2 {
+	font-size:medium;
+}
+
+#hot-takes {
+	display: inline-block;
+	text-align: center;
+	width: 40%;
+	padding-left:3%; 
+
+}
+
+#Game-Review {
+	display: inline-block;
+	text-align: center;
+	width: 40%;
+	padding-left: 3%
+}
+
+.bears {
+	display: inline-block;
+	width: 512px;
+	height: 512px;
+}
+
+
+.top-nav:link, .top-nav:visited {
+	display:block;
+	width: 120px;
+	height: 90px;
+	padding: 10px;
+	margin-left: 200px;
+	background-color: #00008B;
+	color:orange;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.top-nav:hover, .top-nav:active {
+	background-color: #B8860B;
+}
+
+ul {
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+
+li {
+	float:left;
+}
+
+#roll {
+	background-color: orange;
+	display:inline-block;
+  	vertical-align: bottom;
+  	width: 10%;
+  	padding-right:5%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	div{
+		width: auto;
+		float:none;
+		margin-right: 0;
+	}
+}
