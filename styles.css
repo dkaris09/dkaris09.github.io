@@ -1,0 +1,106 @@
+h1 {
+	text-align: center;
+	color: orange;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+h2 {
+	font-size:medium;
+	text-align: center;
+	padding-top: 4%
+}
+
+body {
+	background-image: url(http://tinyurl.com/h9xy3nm);
+	background-repeat: repeat-x;
+}
+
+#hot-takes {
+	display: inline-block;
+	text-align: center;
+	width: 40%;
+	padding-left:3%; 
+	padding-top: 3%
+}
+
+#Game-Review {
+	display: inline-block;
+	text-align: center;
+	width: 40%;
+	padding-left: 3%
+	padding-top: 3%
+}
+
+.bears {
+	display: inline-block;
+	width: 512px;
+	height: 512px;
+	margin: 0 auto;
+}
+
+.players {
+	min-width: 
+}
+
+.top-nav:link, .top-nav:visited {
+	display:block;
+	width: 120px;
+	height: 90px;
+	padding: 10px;
+	margin-left: 200px;
+	background-color: #00008B;
+	color:orange;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	font-family: helvetica;
+	text-transform: uppercase;
+}
+
+.top-nav:hover, .top-nav:active {
+	background-color: #B8860B;
+}
+
+ul {
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+
+li {
+	float:left;
+}
+
+#roll {
+	background-color: orange;
+	display:inline-block;
+  	vertical-align: bottom;
+  	width: 10%;
+  	padding-right:5%;
+	}
+}
+
+@media screen and (max-width: 600px){
+  p{
+    font-size: 0.6em;
+  }
+  h1{
+    font-size: 0.6em;
+  }
+  li {
+    font-size: 0.6em;
+  }
+  }
+
+  @media screen and (max-width: 1000px) and (min-width: 600px) {
+    ul li a:before {
+        content: "Email: ";
+        font-style: italic;
+        color: #666666;
+    }
+}
+
+a:visited{
+	color:red;
+}
