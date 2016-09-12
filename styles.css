@@ -39,6 +39,9 @@ body {
 	margin: 0 auto;
 }
 
+.players {
+	min-width: 
+}
 
 .top-nav:link, .top-nav:visited {
 	display:block;
@@ -89,3 +92,15 @@ li {
     font-size: 0.6em;
   }
   }
+
+  @media screen and (max-width: 1000px) and (min-width: 600px) {
+    ul li a:before {
+        content: "Email: ";
+        font-style: italic;
+        color: #666666;
+    }
+}
+
+a:visited{
+	color:red;
+}
